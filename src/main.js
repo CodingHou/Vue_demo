@@ -12,6 +12,9 @@ import utils from './utils/index.js'
 // 将工具方法绑定到全局
 Vue.prototype.$utils = utils
 
+// import 'jquery'
+import '../static/js/jquery-1.8.3.js'
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
